@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import Navbar from './partes/navbar/navbar.js';
 import FormularioLogin from './partes/formulario/login';
+import Botao from './partes/formulario/botao'
 import './App.css';
 
 class App extends React.Component {
@@ -32,6 +33,10 @@ class App extends React.Component {
         />
 
         <FormularioLogin usuario={this.state.usuario}/>
+
+        <Botao>
+          Botao dentro do app
+        </Botao>
 
       </div>
     );

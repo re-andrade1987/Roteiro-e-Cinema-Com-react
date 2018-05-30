@@ -1,4 +1,5 @@
 import React from 'react';
+import Botao from '../formulario/botao'
 import logo from './logo.jpg'
 import './navbar.css'
 
@@ -20,7 +21,11 @@ function Navbar(props) {
                     <a>Quem somos</a>
                 </li>
                 <li>
-                    <a>Contato</a>
+                    <a>
+                        <Botao cor="vermelha">
+                            Contato
+                        </Botao>
+                    </a>
                 </li>
                 <li>
                     <a onClick={handleClick}>
