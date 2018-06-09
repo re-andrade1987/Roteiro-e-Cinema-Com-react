@@ -1,0 +1,40 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.links a {
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;  
+    padding: 10px; 
+
+}
+
+nav {
+    background-color: black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around; 
+    padding: 10px;
+    
+}   
+
+nav ul  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logomarca{
+    width: 150px;
+    height: 100px;
+}
+
